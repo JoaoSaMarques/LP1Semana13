@@ -14,6 +14,7 @@ namespace MultipleStuff
             min = double.MaxValue;
             max = double.MinValue;
 
+            //For each number in the GetMinMax
             foreach (double number in this)
             {
                 if (number < min)
@@ -35,6 +36,7 @@ namespace MultipleStuff
             double min = double.MaxValue;
             double max = double.MinValue;
 
+            //For each number in the GetMinMax
             foreach (double number in this)
             {
                 if (number < min)
@@ -57,6 +59,7 @@ namespace MultipleStuff
             min = double.MaxValue;
             max = double.MinValue;
 
+            //For each number in the GetMinMax
             foreach (double number in this)
             {
                 if (number < min)
@@ -78,6 +81,15 @@ namespace MultipleStuff
             double min = double.MaxValue;
             double max = double.MinValue;
             
+            //For each number in the GetMinMax
+            foreach (double number in this)
+            {
+                if (number < min)
+                    min = number;
+
+                if (number > max)
+                    max = number;
+            }
         }
     }
 }
