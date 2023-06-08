@@ -43,6 +43,8 @@ namespace MultipleStuff
                 if (number > max)
                     max = number;
             }
+
+            return (min, max);
         }
     }
 }
