@@ -28,6 +28,12 @@ namespace MultipleStuff
             numbers.GetMinMax3(ref min3, ref max3);
             Console.WriteLine("\nVersão 3:");
             numbers.PrintMinMax(min3, max3);
+
+            //Version 4
+            //Getminmax 4 (Value tuples and name defined)
+            var (min4, max4) = numbers.GetMinMax4();
+            Console.WriteLine("\nVersão 4:");
+            numbers.PrintMinMax(min4, max4);
         }
     }
 }
