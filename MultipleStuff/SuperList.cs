@@ -95,5 +95,16 @@ namespace MultipleStuff
             //Return the value
             return (min: min, max: max);
         }
+
+        /// <summary>
+        /// Print min and max
+        /// </summary>
+        /// <param name="min"></param>
+        /// <param name="max"></param>
+        public void PrintMinMax(double min, double max)
+        {
+            Console.WriteLine($"Minimum: {min}");
+            Console.WriteLine($"Maximum: {max}");
+        }
     }
 }
