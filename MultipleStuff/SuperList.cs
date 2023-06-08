@@ -46,6 +46,7 @@ namespace MultipleStuff
                     max = number;
             }
 
+            //Return the value
             return (min, max);
         }
 
@@ -90,6 +91,9 @@ namespace MultipleStuff
                 if (number > max)
                     max = number;
             }
+
+            //Return the value
+            return (min: min, max: max);
         }
     }
 }
