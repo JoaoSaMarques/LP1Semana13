@@ -2,11 +2,17 @@
 
 namespace MultipleStuff
 {
-    class Program
+    public class SuperList : List<double>
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Get min max1
+        /// </summary>
+        /// <param name="min"></param>
+        /// <param name="max"></param>
+        public void GetMinMax1(out double min, out double max)
         {
-            Console.WriteLine("Hello, World!");
+            min = double.MaxValue;
+            max = double.MinValue;
         }
     }
 }
