@@ -13,6 +13,15 @@ namespace MultipleStuff
         {
             min = double.MaxValue;
             max = double.MinValue;
+
+            foreach (double number in this)
+            {
+                if (number < min)
+                    min = number;
+
+                if (number > max)
+                    max = number;
+            }
         }
     }
 }
