@@ -21,6 +21,13 @@ namespace MultipleStuff
             var result2 = numbers.GetMinMax2();
             Console.WriteLine("\nVersão 2:");
             numbers.PrintMinMax(result2.min, result2.max);
+
+            //Version 3
+            double min3 = double.MaxValue, max3 = double.MinValue;
+            //This will test Getminmax3 (Tuple reference)
+            numbers.GetMinMax3(ref min3, ref max3);
+            Console.WriteLine("\nVersão 3:");
+            numbers.PrintMinMax(min3, max3);
         }
     }
 }
