@@ -46,5 +46,17 @@ namespace MultipleStuff
 
             return (min, max);
         }
+
+        /// <summary>
+        /// Get min max3
+        /// </summary>
+        /// <param name="min"></param>
+        /// <param name="max"></param>
+        public void GetMinMax3(ref double min, ref double max)
+        {
+            min = double.MaxValue;
+            max = double.MinValue;
+
+        }
     }
 }
