@@ -34,6 +34,15 @@ namespace MultipleStuff
         {
             double min = double.MaxValue;
             double max = double.MinValue;
+
+            foreach (double number in this)
+            {
+                if (number < min)
+                    min = number;
+
+                if (number > max)
+                    max = number;
+            }
         }
     }
 }
