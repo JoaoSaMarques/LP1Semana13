@@ -66,6 +66,18 @@ namespace MultipleStuff
                     max = number;
             }
         }
-        
+
+        /// <summary>
+        /// Get min max4
+        /// </summary>
+        /// <param name="min"></param>
+        /// <param name="GetMinMax4("></param>
+        /// <returns></returns>
+        public (double min, double max) GetMinMax4()
+        {
+            double min = double.MaxValue;
+            double max = double.MinValue;
+            
+        }
     }
 }
